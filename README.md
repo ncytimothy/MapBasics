@@ -22,11 +22,5 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 
 * Learn Swift community around the world
 
-# App Description
-- To be added
-
-# Ripple's Future
-- To be added
-
 
 
