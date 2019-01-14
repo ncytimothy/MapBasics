@@ -1,6 +1,6 @@
 # MapBasics
-We will learn how to use MapKit in this tutorial for Learn Swift HK for Jan 15, 2019
-[Meetup Link](https://www.meetup.com/Learn-Swift-HK/events/256112228/)
+* We will learn how to use MapKit in this tutorial for Learn Swift HK for Jan 15, 2019
+* [Meetup Link](https://www.meetup.com/Learn-Swift-HK/events/256112228/)
 
 ## Getting Started
 
