@@ -22,6 +22,7 @@
 		C40CA40321ECB5FE00C39233 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C40CA40621ECB5FE00C39233 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C40CA40821ECB5FE00C39233 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C40CA40E21ECBCF600C39233 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +39,7 @@
 		C40CA3F021ECB5FD00C39233 = {
 			isa = PBXGroup;
 			children = (
+				C40CA40E21ECBCF600C39233 /* README.md */,
 				C40CA3FB21ECB5FD00C39233 /* MapBasics */,
 				C40CA3FA21ECB5FD00C39233 /* Products */,
 			);
