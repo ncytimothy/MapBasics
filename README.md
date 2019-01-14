@@ -6,9 +6,9 @@
 
 Download the Xcode project from the download menu
 
-### Prerequisites
-
-- None
+### Further Reading
+- [MapKit](https://developer.apple.com/documentation/mapkit)
+- [MKMapViewDelegate](https://developer.apple.com/documentation/mapkit/mkmapviewdelegate)
 
 ## Authors
 
