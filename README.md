@@ -9,6 +9,10 @@ Download the Xcode project from the download menu
 ### Further Reading
 - [MapKit](https://developer.apple.com/documentation/mapkit)
 - [MKMapViewDelegate](https://developer.apple.com/documentation/mapkit/mkmapviewdelegate)
+- [UILongPressGestureRecognizer](https://developer.apple.com/documentation/uikit/uilongpressgesturerecognizer)
+- [UIGestureRecognizer](https://developer.apple.com/documentation/uikit/uigesturerecognizer)
+- [Target-Action](https://developer.apple.com/library/archive/documentation/General/Conceptual/Devpedia-CocoaApp/TargetAction.html#//apple_ref/doc/uid/TP40009071-CH3)
+
 
 ## Authors
 

@@ -57,6 +57,8 @@ class ViewController: UIViewController, MKMapViewDelegate {
             let annotation = MKPointAnnotation()
             annotation.coordinate = touchCoordinate
             annotations.append(annotation)
+            let userLocation = UserLocation(latitude: touchCoordinate.latitude, longitude: touchCoordinate.longitude)
+            SharedData.sharedInstance.UserLocations.append(userLocation)
             
             performUIUpdatesOnMain {
                 print("annotations: \(self.annotations)")
@@ -72,6 +74,7 @@ class ViewController: UIViewController, MKMapViewDelegate {
 
         if pinView == nil {
             pinView = MKMarkerAnnotationView(annotation: annotation, reuseIdentifier: reuseId)
+            pinView?.markerTintColor = .purple
             pinView?.animatesWhenAdded = true
         } else {
             pinView?.annotation = annotation
@@ -87,8 +90,18 @@ class ViewController: UIViewController, MKMapViewDelegate {
             pinView.canShowCallout = true
             let label = UILabel()
             label.text = "\(coordinate.longitude), \(coordinate.latitude)"
-            pinView.leftCalloutAccessoryView = label
             print("\(coordinate.longitude), \(coordinate.latitude)")
+            
+            for location in SharedData.sharedInstance.UserLocations {
+                if coordinate.latitude == location.latitude && coordinate.longitude == location.longtitude {
+                    let imageVC = ImageViewController()
+                    imageVC.selectedUserLocation = location
+                    present(imageVC, animated: true, completion: nil)
+                }
+            }
+            
+            
+           
         }
     }
 

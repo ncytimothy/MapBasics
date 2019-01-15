@@ -16,6 +16,7 @@
 		C44A632221EDFC0D002DEBEB /* UserLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = C44A632121EDFC0D002DEBEB /* UserLocation.swift */; };
 		C44A632621EDFE9E002DEBEB /* UserLocationConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = C44A632521EDFE9E002DEBEB /* UserLocationConstants.swift */; };
 		C44A632821EE0000002DEBEB /* UserLocationStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = C44A632721EE0000002DEBEB /* UserLocationStorage.swift */; };
+		C44A632A21EE0438002DEBEB /* ImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C44A632921EE0438002DEBEB /* ImageViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,7 @@
 		C44A632121EDFC0D002DEBEB /* UserLocation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserLocation.swift; sourceTree = "<group>"; };
 		C44A632521EDFE9E002DEBEB /* UserLocationConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserLocationConstants.swift; sourceTree = "<group>"; };
 		C44A632721EE0000002DEBEB /* UserLocationStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserLocationStorage.swift; sourceTree = "<group>"; };
+		C44A632921EE0438002DEBEB /* ImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +69,7 @@
 				C44A631D21EDFACE002DEBEB /* Model */,
 				C40CA3FC21ECB5FD00C39233 /* AppDelegate.swift */,
 				C40CA3FE21ECB5FD00C39233 /* ViewController.swift */,
+				C44A632921EE0438002DEBEB /* ImageViewController.swift */,
 				C40CA40021ECB5FD00C39233 /* Main.storyboard */,
 				C40CA40321ECB5FE00C39233 /* Assets.xcassets */,
 				C40CA40521ECB5FE00C39233 /* LaunchScreen.storyboard */,
@@ -168,6 +171,7 @@
 				C40CA3FF21ECB5FD00C39233 /* ViewController.swift in Sources */,
 				C44A632221EDFC0D002DEBEB /* UserLocation.swift in Sources */,
 				C44A631F21EDFAE6002DEBEB /* GCDMain.swift in Sources */,
+				C44A632A21EE0438002DEBEB /* ImageViewController.swift in Sources */,
 				C44A632621EDFE9E002DEBEB /* UserLocationConstants.swift in Sources */,
 				C40CA3FD21ECB5FD00C39233 /* AppDelegate.swift in Sources */,
 				C44A632821EE0000002DEBEB /* UserLocationStorage.swift in Sources */,
