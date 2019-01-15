@@ -12,6 +12,7 @@
 		C40CA40221ECB5FD00C39233 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C40CA40021ECB5FD00C39233 /* Main.storyboard */; };
 		C40CA40421ECB5FE00C39233 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C40CA40321ECB5FE00C39233 /* Assets.xcassets */; };
 		C40CA40721ECB5FE00C39233 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C40CA40521ECB5FE00C39233 /* LaunchScreen.storyboard */; };
+		C44A631F21EDFAE6002DEBEB /* GCDMain.swift in Sources */ = {isa = PBXBuildFile; fileRef = C44A631E21EDFAE6002DEBEB /* GCDMain.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		C40CA40621ECB5FE00C39233 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C40CA40821ECB5FE00C39233 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C40CA40E21ECBCF600C39233 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		C44A631E21EDFAE6002DEBEB /* GCDMain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GCDMain.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 		C40CA3FB21ECB5FD00C39233 /* MapBasics */ = {
 			isa = PBXGroup;
 			children = (
+				C44A631D21EDFACE002DEBEB /* Model */,
 				C40CA3FC21ECB5FD00C39233 /* AppDelegate.swift */,
 				C40CA3FE21ECB5FD00C39233 /* ViewController.swift */,
 				C40CA40021ECB5FD00C39233 /* Main.storyboard */,
@@ -64,6 +67,22 @@
 				C40CA40821ECB5FE00C39233 /* Info.plist */,
 			);
 			path = MapBasics;
+			sourceTree = "<group>";
+		};
+		C44A631D21EDFACE002DEBEB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C44A632021EDFAF9002DEBEB /* GCD */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C44A632021EDFAF9002DEBEB /* GCD */ = {
+			isa = PBXGroup;
+			children = (
+				C44A631E21EDFAE6002DEBEB /* GCDMain.swift */,
+			);
+			path = GCD;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,6 +157,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C40CA3FF21ECB5FD00C39233 /* ViewController.swift in Sources */,
+				C44A631F21EDFAE6002DEBEB /* GCDMain.swift in Sources */,
 				C40CA3FD21ECB5FD00C39233 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

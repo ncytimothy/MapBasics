@@ -58,9 +58,9 @@ class ViewController: UIViewController, MKMapViewDelegate {
             annotation.coordinate = touchCoordinate
             annotations.append(annotation)
             
-            DispatchQueue.main.async {
+            performUIUpdatesOnMain {
                 print("annotations: \(self.annotations)")
-                self.mapView.addAnnotations(self.annotations)
+                 self.mapView.addAnnotations(self.annotations)
             }
         }
     }
@@ -68,11 +68,11 @@ class ViewController: UIViewController, MKMapViewDelegate {
     func mapView(_ mapView: MKMapView, viewFor annotation: MKAnnotation) -> MKAnnotationView? {
         let reuseId = "pin"
 
-        var pinView = mapView.dequeueReusableAnnotationView(withIdentifier: reuseId) as? MKPinAnnotationView
+        var pinView = mapView.dequeueReusableAnnotationView(withIdentifier: reuseId) as? MKMarkerAnnotationView
 
         if pinView == nil {
-            pinView = MKPinAnnotationView(annotation: annotation, reuseIdentifier: reuseId)
-            pinView?.animatesDrop = true
+            pinView = MKMarkerAnnotationView(annotation: annotation, reuseIdentifier: reuseId)
+            pinView?.animatesWhenAdded = true
         } else {
             pinView?.annotation = annotation
             
@@ -80,19 +80,17 @@ class ViewController: UIViewController, MKMapViewDelegate {
         return pinView
     }
     
-//    func mapView(_ mapView: MKMapView, didSelect view: MKAnnotationView) {
-//        print("didSelect")
-//        let pinView = view
-//        if let coordinate = view.annotation?.coordinate {
-//            pinView.canShowCallout = true
-//            let label = UILabel()
-//            label.text = "\(coordinate.longitude), \(coordinate.latitude)"
-//            pinView.leftCalloutAccessoryView = label
-//            print("\(coordinate.longitude), \(coordinate.latitude)")
-//        }
-    
-        
-//    }g
+    func mapView(_ mapView: MKMapView, didSelect view: MKAnnotationView) {
+        print("didSelect")
+        let pinView = view
+        if let coordinate = view.annotation?.coordinate {
+            pinView.canShowCallout = true
+            let label = UILabel()
+            label.text = "\(coordinate.longitude), \(coordinate.latitude)"
+            pinView.leftCalloutAccessoryView = label
+            print("\(coordinate.longitude), \(coordinate.latitude)")
+        }
+    }
 
 
 }
