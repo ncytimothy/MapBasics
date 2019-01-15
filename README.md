@@ -22,5 +22,8 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 
 * Learn Swift community around the world
 
+## App Description
+* When the app first starts, the user will be presented with a Map View
+* When the user long presses on the map, a pin/annotation will be shown on the map
 
 
