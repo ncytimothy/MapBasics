@@ -15,6 +15,7 @@
 		C44A631F21EDFAE6002DEBEB /* GCDMain.swift in Sources */ = {isa = PBXBuildFile; fileRef = C44A631E21EDFAE6002DEBEB /* GCDMain.swift */; };
 		C44A632221EDFC0D002DEBEB /* UserLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = C44A632121EDFC0D002DEBEB /* UserLocation.swift */; };
 		C44A632621EDFE9E002DEBEB /* UserLocationConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = C44A632521EDFE9E002DEBEB /* UserLocationConstants.swift */; };
+		C44A632821EE0000002DEBEB /* UserLocationStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = C44A632721EE0000002DEBEB /* UserLocationStorage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,7 @@
 		C44A631E21EDFAE6002DEBEB /* GCDMain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GCDMain.swift; sourceTree = "<group>"; };
 		C44A632121EDFC0D002DEBEB /* UserLocation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserLocation.swift; sourceTree = "<group>"; };
 		C44A632521EDFE9E002DEBEB /* UserLocationConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserLocationConstants.swift; sourceTree = "<group>"; };
+		C44A632721EE0000002DEBEB /* UserLocationStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserLocationStorage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 				C44A632021EDFAF9002DEBEB /* GCD */,
 				C44A632121EDFC0D002DEBEB /* UserLocation.swift */,
 				C44A632521EDFE9E002DEBEB /* UserLocationConstants.swift */,
+				C44A632721EE0000002DEBEB /* UserLocationStorage.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -167,6 +170,7 @@
 				C44A631F21EDFAE6002DEBEB /* GCDMain.swift in Sources */,
 				C44A632621EDFE9E002DEBEB /* UserLocationConstants.swift in Sources */,
 				C40CA3FD21ECB5FD00C39233 /* AppDelegate.swift in Sources */,
+				C44A632821EE0000002DEBEB /* UserLocationStorage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
