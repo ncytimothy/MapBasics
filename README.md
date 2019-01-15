@@ -12,6 +12,8 @@ Download the Xcode project from the download menu
 - [UILongPressGestureRecognizer](https://developer.apple.com/documentation/uikit/uilongpressgesturerecognizer)
 - [UIGestureRecognizer](https://developer.apple.com/documentation/uikit/uigesturerecognizer)
 - [Target-Action](https://developer.apple.com/library/archive/documentation/General/Conceptual/Devpedia-CocoaApp/TargetAction.html#//apple_ref/doc/uid/TP40009071-CH3)
+- [MapKit Tutorial](https://www.raywenderlich.com/548-mapkit-tutorial-getting-started)
+- [HackingWithSwift MapKit Tutorial](https://www.hackingwithswift.com/read/19/2/up-and-running-with-mapkit)
 
 
 ## Authors
