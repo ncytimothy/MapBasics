@@ -9,8 +9,8 @@
 import Foundation
 
 struct UserLocation {
-    var latitude: Double?
-    var longtitude: Double?
+    var latitude: Double? = UserLocationConstants.Latitude
+    var longtitude: Double? = UserLocationConstants.Longitude
     
     init(latitude: Double, longitude: Double) {
         self.latitude = latitude
